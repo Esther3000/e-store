@@ -2,12 +2,17 @@
   text-align: center;
 }
 body{
-  background-color: pink;
+  background-color: white;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.main-content{
+  display:grid;
+  margin-left: 80px ;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 @media (prefers-reduced-motion: no-preference) {

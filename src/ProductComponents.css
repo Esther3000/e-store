@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+figure{
+  border: 1px solid silver;
+  max-width: 262px;
+  outline: none;
+  background-color: rgb(227, 227, 233);
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: violet;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.navbar-title {
+  margin-right: auto;
+  font-size: 150%;
+  padding: 12px 16px;
+}
+
+.navbar-item {
+  padding: 16px 16px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.label {
+    position: absolute;
+    color: black;
+    left: 130px;
+    background-color: orange;
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+  }
