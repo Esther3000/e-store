@@ -11,7 +11,7 @@ body{
 }
 .main-content{
   display:grid;
-  margin-left: 80px ;
+  margin: 0 auto;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
